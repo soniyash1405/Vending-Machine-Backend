@@ -1,20 +1,22 @@
 How to run the Vending Machine Project
 1. Download the  zip file
 
-2. Extract the file and copy nestaway folder
+2. Extract the file. It will be extracted as "Vending-Machine-Backend-master".
 
-3. Paste inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
+3. Rename "Vending-Machine-Backend-master" to "nestaway" and copy this folder.
 
-4. Open PHPMyAdmin (http://localhost/phpmyadmin)
+4. Paste inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
 
-5. Create a database with name vending_machine
+5. Open PHPMyAdmin (http://localhost/phpmyadmin)
 
-6. Import vending_machine.sql database file (given inside the package in SQL file folder)
+6. Create a database with name vending_machine
 
-7.Import the Postman Collection of APIs using link:
+7. Import vending_machine.sql database file (given inside the package in SQL file folder)
+
+8. Import the Postman Collection of APIs using link:
 https://www.getpostman.com/collections/322815853929801e9c1e
 
-8.Run all the 6 APIs:
+9. Run all the 6 APIs:
 a) allBeverages : Get list of all beverages present in the vending machine
 b) allIngredients : Get list of all ingredients present in vending machine to make beverages.
 c) beverageNameById : Get the beverage name from its id.
