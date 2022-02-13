@@ -40,7 +40,7 @@ class VendingMachineServices {
             foreach($OriginalIngredientsAmount as $key1 => $value1) {
                 foreach($ingredientsAmountToReduce as $key2 => $value2) {
                     if($value1['id'] == $value2['ingredient_id']) {
-                        $newIngredientsAmount[$value1['id']] = $value1['quantity'] - $value2['amount'];
+                        $newIngredientsAmount[$value1['name']] = $value1['quantity'] - $value2['amount'];
                     }    
                 }
             }

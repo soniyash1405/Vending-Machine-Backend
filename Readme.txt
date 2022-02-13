@@ -9,7 +9,7 @@ How to run the Vending Machine Project
 
 5. Create a database with name vending_machine
 
-6. Import vending_machin.sql database file (given inside the package in SQL file folder)
+6. Import vending_machine.sql database file (given inside the package in SQL file folder)
 
 7.Import the Postman Collection of APIs using link:
 https://www.getpostman.com/collections/322815853929801e9c1e
